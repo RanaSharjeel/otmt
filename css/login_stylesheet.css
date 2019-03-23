@@ -1,0 +1,110 @@
+	/*BODY*/
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	background-color: #e0e0e0;
+}
+/*Custom font in font folder*/
+@font-face{
+	font-family: "Nunito";
+	src: url('../font/Nunito-ExtraBold.ttf');
+}
+/*ERROR MESSAGES*/
+.signin_message{
+	font-family:"Nunito";
+	font-size:16px;
+	color:#25aebe;
+	top:50%;
+}
+	/*BANNER*/
+.container{
+	width:100%;
+	margin: 0 auto;
+}
+header{
+	background-color:white;
+	box-shadow: 1px 1px 5px grey;
+}
+header:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+h1{
+	float:left;
+	font-family:"Nunito";
+	color:#491bb2;
+	margin:0 20px;
+	padding: 5px 0;
+}
+span{
+	color:#25aebe;
+}
+
+
+
+.otmt{
+	position:relative;
+	display:inline-block;
+	left:50%;
+	top:75px;
+	transform: translate(-50%,-50%);
+}
+
+.otmt h1{
+	font-family:"Nunito";
+	color:#25aebe;
+}
+
+
+.login_ui{
+	position:absolute;
+	background-color: #491bb2;
+	border-radius:10px;
+	text-align: center;
+	width:300px;
+	padding:40px;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+input[name="username"],input[name="pwd"]{
+	border:3px solid white;
+	border-radius:5px;
+	width:200px;
+	background-color:white;
+	display: block;
+	margin:10px auto;
+	padding:15px 10px;
+	outline:none;
+	color:#25aebe;
+	transition: 0.5s;
+
+}
+input[name="username"]:focus,input[name="pwd"]:focus{
+	border:3px solid #25aebe;
+}
+.login_ui button{
+	background-color: #25aebe;
+	font-family: "Nunito";
+	font-size: 16px;
+	border:0;
+	border-radius: 5px;
+	width:40%;
+	padding:10px 24px;
+	text-decoration: none;
+	text-align: center;
+	margin:5px auto;
+	color:white;
+	transition:0.5s;
+}
+
+.login_ui button:active, .login_ui button:hover{
+	outline:none;
+	background-color:#1f95a3;
+}
