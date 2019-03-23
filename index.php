@@ -21,7 +21,7 @@ session_start();
 	<br>
 	
 	<div class="login_ui">
-		<form action="/includes/signin.php" method="POST">
+		<form action="includes/signin.php" method="POST">
 			<input type="text" name="username" placeholder="Username">
 			<br>
 			<input type="password" name="pwd" placeholder="Password">
@@ -58,7 +58,7 @@ session_start();
 			}
 			//If you successfully login, switch to main page
 			if(isset($_SESSION['userid'])){
-				header("Location: ../main.php");
+				header("Location: ./main.php");
 			}
 			 ?>
 			
