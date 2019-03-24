@@ -3,9 +3,9 @@
 
 -- **IMPORTANT**
 -- Change abcd to your username on the next 3 lines before running this script!
-DROP DATABASE IF EXISTS taskdb;
-CREATE DATABASE taskdb;
-USE taskdb;
+
+CREATE DATABASE heroku_6eac11ed5355ee9;
+USE heroku_6eac11ed5355ee9;
 CREATE TABLE User (
 	id INT AUTO_INCREMENT, 
 	username VARCHAR(50),

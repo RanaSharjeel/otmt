@@ -1,0 +1,1 @@
+mysql -u b68fa225cf6581 -h eu-cdbr-west-02.cleardb.net -p heroku_6eac11ed5355ee9
