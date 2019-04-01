@@ -310,6 +310,13 @@ td span{
 	position:relative;
 	margin-top: 3%;
 	font-size:14px;
+	top:4%;
+}
+#inputselectusers{
+	position: absolute;
+	left:22.5%;
+	top:3%;
+
 }
 #texttaskdue{
 	top:17%;
@@ -319,6 +326,8 @@ td span{
 	display: inline-block;
 	position:relative;
 	width:45%;
+	top:8%;
+	
 
 }
 #texttaskpriority{
@@ -326,13 +335,22 @@ td span{
 	text-align: left;
 
 }
+#textaddmember{
+	top:5%;
+	text-align:left;
+}
+#textmop{
+	position:absolute;
+	text-align:left;
+	left:21%;
+	top:20%;
+}
 #donebutton{
 	position:absolute;
 	bottom:2%;
 	left:35%;
 	transform:translate(-50%,-50%);;
 }
-
 #notesformdiv{
 	position:absolute;
 	width:50%;
@@ -353,4 +371,19 @@ td span{
 	position:relative;
 	margin-top:5%;
 	bottom:0;
+}
+#showmemberstable{
+	position:absolute;
+	top:30%;
+}
+#addmemberbutton{
+	display:inline-block;
+	position:relative;
+	float:right;
+	top:35px;
+	right:10%;
+}
+#closememberdiv{
+	position: absolute;
+	bottom:3%;
 }
