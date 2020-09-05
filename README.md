@@ -1,6 +1,7 @@
-# otmt
+# OTMT
 Online task management tool
-otmt.herokuapp.com
+
+https://otmt.herokuapp.com/
 
 Features:
 - Registration/Login System
